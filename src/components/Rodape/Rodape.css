@@ -1,0 +1,43 @@
+/* src/componentes/Rodape/index.js */
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer {
+    background: #6278F7;
+    color: #FFF;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer section {
+    width: 100%;
+}
+
+.footer ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
