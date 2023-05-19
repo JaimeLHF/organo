@@ -1,14 +1,27 @@
+.campo_text {
+    margin: 24px 0;
+}
 
-.lista-suspensa label {
+
+.campo_radio {
+    margin: 10px 20px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.label_text {
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
 }
 
-.lista-suspensa select{
-    width: 105%;
-    padding: 20px;
-    font-size: 16px;
+.campo_text input {
+    width: 100%;
+    padding: 15px 12px;
+    font-size: 22px;
     line-height: 20px;
     color: #ffffffe8;
     vertical-align: middle;
@@ -21,4 +34,6 @@
     outline: none;
 }
 
-
+.label_checkbox {
+    font-size: 16px;
+}

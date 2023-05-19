@@ -1,4 +1,4 @@
-.formulario{
+.formulario {
     display: flex;
     justify-content: center;
     margin: 80px 0;
@@ -8,8 +8,26 @@
     display: flex;
     flex-direction: column;
     max-width: 80%;
-    background-color: #F2F2F2;
-    border-radius: 20px;
+    background: #14233A;
     padding: 36px 64px;
-    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);  
+    border: 0.05em solid #5396fe87;
+    color: #ffffffe8;
+    border-radius: 1em;
+}
+
+
+.formulario p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.status {
+    display: flex;
+    justify-content: space-around;   
+    text-align: center;  
+    border: 0.2em solid #5396fe87;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 16px;  
 }

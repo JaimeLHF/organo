@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Header from './components/Header/index.js';
 import Banner from './components/Banner/Banner.js'
 import Formulario from './components/Formulario/index.js';
 import Time from './components/Times';
@@ -11,7 +12,7 @@ function App() {
     {
       nome: "Programação",
       corPrimaria: "#e7e7e7",
-      corSecundaria: "#486b5ba0",
+      corSecundaria: "#486b5b",
     },
 
     {
@@ -63,12 +64,13 @@ function App() {
 
   const [colaboradores, setColaboradores] = useState([])
 
-  const novoColaborador = (colaborador) => {    
-    setColaboradores([...colaboradores, colaborador])    
+  const novoColaborador = (colaborador) => {
+    setColaboradores([...colaboradores, colaborador])
   }
 
   return (
     <div className="App">
+      <Header />
       <Banner />
       <Formulario times={times.map(time => time.nome)} colaboradorCadastrado={colaborador => novoColaborador(colaborador)} />
       {times.map(time => <Time

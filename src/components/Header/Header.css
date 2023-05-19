@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    text-align: center;
+    background-color: #28343B;
+    color: white;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    text-align: start;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.link {
+    width: 5%;
+}
+
+.avatar_img {
+    border-radius: 50%;
+    width: 75%;
+    margin: 10px;
+}
+
+.avatar_img:hover {
+    transform: scale(110%);
+    cursor: pointer;
+}
+
+

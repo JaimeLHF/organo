@@ -1,6 +1,6 @@
-import './CampoTexto.css'
+import './Input.css'
 
-const CampoTexto = (props) => {
+const Input = (props) => {
 
 
     const evento_input = (event) => {
@@ -14,8 +14,8 @@ const CampoTexto = (props) => {
         </div>
     )
 }
-CampoTexto.defaultProps = {
+Input.defaultProps = {
     type: 'text',
 };
 
-export default CampoTexto
+export default Input;

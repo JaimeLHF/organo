@@ -1,5 +1,6 @@
 body {
-  background: #2e2d2d;
+  background: #0D1117;
+  background-image: url(../public/imgs/fundoForm.png);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

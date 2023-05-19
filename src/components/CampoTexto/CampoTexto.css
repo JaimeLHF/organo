@@ -1,14 +1,24 @@
-.campo_texto {
+.campo_text {
     margin: 24px 0;
 }
 
-.campo_texto label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 24px;
+
+.campo_radio {
+    margin: 10px 20px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
-.campo_texto input {
+
+.label_text {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 22px;
+}
+
+.campo_text input {
     background: #fff;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -16,4 +26,8 @@
     font-size: 24px;
     padding: 24px;
     box-sizing: border-box;
+}
+
+.label_checkbox {
+    font-size: 16px;
 }
